@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ngoquocdat.dev/static/css/main.ebe775f7.css",
+    "main.js": "/ngoquocdat.dev/static/js/main.0e4c202b.js",
+    "static/media/avatar.jpg": "/ngoquocdat.dev/static/media/avatar.2502bdeccaad2a5160ee.jpg",
+    "index.html": "/ngoquocdat.dev/index.html",
+    "main.ebe775f7.css.map": "/ngoquocdat.dev/static/css/main.ebe775f7.css.map",
+    "main.0e4c202b.js.map": "/ngoquocdat.dev/static/js/main.0e4c202b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebe775f7.css",
+    "static/js/main.0e4c202b.js"
+  ]
+}
