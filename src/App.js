@@ -1,5 +1,11 @@
 import './App.css'
-import { FaFacebook, FaInstagram, FaTwitter, FaGithub } from 'react-icons/fa'
+import {
+  FaFacebook,
+  FaInstagram,
+  FaTwitter,
+  FaGithub,
+  FaDiscord,
+} from 'react-icons/fa'
 import Infomation from './components/Infomation'
 import Avatar from './components/Avatar'
 import avatar from './assets/avatar.jpg'
@@ -9,27 +15,32 @@ const infomations = {
   socials: [
     {
       name: 'Facebook',
-      url: 'https://facebook.com',
+      url: 'https://facebook.com/datlechinvn',
       icon: <FaFacebook />,
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com',
+      url: 'https://twitter.com/datlechin',
       icon: <FaTwitter />,
     },
     {
-      name: 'Instagram',
-      url: 'https://instagram.com',
-      icon: <FaInstagram />,
+      name: 'Github',
+      url: 'https://github.com/datlechin',
+      icon: <FaGithub />,
     },
     {
-      name: 'Github',
-      url: 'https://github.com',
-      icon: <FaGithub />,
+      name: 'Discord',
+      url: 'https://discordapp.com/users/556129204526120980',
+      icon: <FaDiscord />,
+    },
+    {
+      name: 'Instagram',
+      url: 'https://instagram.com/ngoquocdat2003',
+      icon: <FaInstagram />,
     },
   ],
   paragraph:
-    'he only way to learn a new programming language is by writing programs in it.',
+    'The only way to learn a new programming language is by writing programs in it.',
 }
 
 function App() {
