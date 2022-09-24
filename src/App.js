@@ -1,14 +1,14 @@
-import './App.css'
+import './App.css';
 import {
   FaFacebook,
   FaInstagram,
   FaTwitter,
   FaGithub,
   FaDiscord,
-} from 'react-icons/fa'
-import Infomation from './components/Infomation'
-import Avatar from './components/Avatar'
-import avatar from './assets/avatar.jpg'
+} from 'react-icons/fa';
+import Infomation from './components/Infomation';
+import Avatar from './components/Avatar';
+import avatar from './assets/avatar.jpg';
 
 const infomations = {
   name: 'Ngo Quoc Dat',
@@ -40,8 +40,8 @@ const infomations = {
     },
   ],
   paragraph:
-    'The only way to learn a new programming language is by writing programs in it.',
-}
+    "I'm a full-stack web developer from Ho Chi Minh, Vietnam. I love Laravel and its ecosystem.",
+};
 
 function App() {
   return (
@@ -49,7 +49,7 @@ function App() {
       <Avatar avatar={avatar} />
       <Infomation infomations={infomations} />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
