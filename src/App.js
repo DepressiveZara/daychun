@@ -15,7 +15,7 @@ const infomations = {
   socials: [
     {
       name: 'Facebook',
-      url: 'https://facebook.com/datlechinvn',
+      url: 'https://www.facebook.com/profile.php?id=100086242208936',
       icon: <FaFacebook />,
     },
     {
